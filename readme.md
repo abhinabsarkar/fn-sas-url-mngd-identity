@@ -3,7 +3,7 @@ The Azure function sample returns a SAS Url for a given blob(file) in Azure Stor
 
 The permission and connectivity to the target storage account is controlled by the Identity and RBAC assignments in the associated Active Directory. The function makes the following calls behind the scenes to get the token & then uses the token to call the blob in the Storage Account.
 
-![alt txt](/images/backend-calls.png)
+![alt txt](/images/backend-calls.jpg)
 
 The managed identity used in this scenario is System Assigned Managed Identity which is enabled on the Azure Function.
 
