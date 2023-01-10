@@ -2,6 +2,7 @@
 
 ## Valet Key pattern
 Use a token that provides clients with restricted direct access to a specific resource, in order to offload data transfer from the application.
+
 ![alt txt](/images/valet-key-pattern.png)
 
 ## Implementation using Azure function 
